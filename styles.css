@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(#8412B0, #000);
-    font-family: 'Consolas', sans-serif;
+    background: linear-gradient(#0F4C75, #0B132B);
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -16,7 +16,7 @@ h1 {
     margin-top: 20px;
     font-size: 2.5em;
     display: inline;
-    text-shadow: 0 0 10px #FC199A, 0 0 20px #FC199A, 0 0 30px #FC199A, 0 0 40px #FF007F, 0 0 50px #FF007F;
+    text-shadow: 0 0 10px #3BB273, 0 0 20px #3BB273;
 }
 
 .container {
@@ -31,7 +31,7 @@ h1 {
 
 .formContainer {
     text-align: center;
-    background-color: #FF007F;
+    background-color: #1B262C;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -40,7 +40,7 @@ h1 {
 }
 
 label {
-    color: #00FFFF;
+    color: #BBE1FA;
     font-size: 14px;
     margin-right: 10px;
 }
@@ -56,8 +56,8 @@ input {
 }
 
 button {
-    background-color: #FFCC00;
-    color: #8412B0;
+    background-color: #3BB273;
+    color: #0B132B;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-    background-color: #FC199A;
+    background-color: #3282B8;
     color: #fff;
 }
 
@@ -84,13 +84,13 @@ th, td {
 }
 
 th {
-    background-color: #FC199A;
+    background-color: #3282B8;
     color: white;
 }
 
 td {
-    background-color: #00FFFF;
-    color: #8412B0;
+    background-color: #BBE1FA;
+    color: #0B132B;
 }
 
 .delete-btn {
