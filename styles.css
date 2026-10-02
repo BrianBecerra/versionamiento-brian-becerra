@@ -118,3 +118,8 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
+#total {
+    color: #BBE1FA;
+    font-weight: 600;
+}
