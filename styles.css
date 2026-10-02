@@ -111,3 +111,10 @@ td {
     background-color: #FFF;
     color: #000;
 }
+
+footer {
+    color: #BBE1FA;
+    margin-top: auto;
+    padding: 20px;
+    font-size: 14px;
+}
