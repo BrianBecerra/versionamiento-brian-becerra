@@ -18,6 +18,10 @@ function loadProductTable() {
         tableBody.appendChild(row);
     });
 
+    //Show total of products and sum of prices
+    const total = products.reduce((sum, product) => sum + product.price, 0);
+    document.getElementById('total').textContent = `Productos: ${products.length} | Total: $${total.toFixed(2)}`;
+
     //Add event listeners for delete buttons
     document.querySelectorAll('.delete-btn').forEach(button => {
         button.addEventListener('click', deleteProduct);
